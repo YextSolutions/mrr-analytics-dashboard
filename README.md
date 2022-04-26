@@ -3,8 +3,9 @@
 This app is to be used internally by the Managed Review Response team. Designed to bridge gaps in the MRR implementation and delivery, this app contains a default dashboard that the team applies to all clients. All reports and the dashboard can be customized further. 
 
 ### What is included
-1. Managed Review Response Dashboard
-2. Custom Insights 
+**1. Managed Review Response Dashboard**
+
+**2. Custom Insights**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. mrr_yextManagedReviewsCount
   
