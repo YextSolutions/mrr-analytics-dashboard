@@ -74,7 +74,7 @@
       "height": 1
     },
     {
-      "insight": "listings-listingsActionsByWeek-line",
+      "insight": "GOOGLE_CUSTOMER_ACTIONS",
       "x": 0,
       "y": 8,
       "width": 6,
