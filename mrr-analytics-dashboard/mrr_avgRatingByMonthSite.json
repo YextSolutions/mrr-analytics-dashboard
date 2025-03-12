@@ -17,9 +17,11 @@
           "in": "MONTHS_12"
         },
         {
-          "filter": "yext/partners",
+          "filter": "yext/PARTNERS",
           "in": [
-            "715,713,558"
+            "559",
+            "715",
+            "439"
           ]
         }
       ]
