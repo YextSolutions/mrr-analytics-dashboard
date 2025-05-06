@@ -1,0 +1,45 @@
+{
+  "$id": "mrr_Google_Reviews_Performance_and_Management_Leaderboard",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google Reviews Performance and Management Leaderboard",
+  "description": "Average Rating, Reviews, Response Rate, and Response Time (Hours) by Entity",
+  "query": {
+    "metrics": [
+      "yext/AVERAGE_RATING",
+      "yext/NEW_REVIEWS",
+      "yext/REVIEW_RESPONSE_RATE",
+      "yext/REVIEW_RESPONSE_TIME"
+    ],
+    "fields": [
+      "entityId",
+      "name",
+      "address"
+    ],
+    "dimensions": [
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_12"
+      },
+      {
+        "filter": "yext/PARTNERS",
+        "in": [
+          "715"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/AVERAGE_RATING"
+        },
+        "descending": true,
+        "rank": true
+      }
+    }
+  }
+}

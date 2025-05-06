@@ -1,0 +1,31 @@
+{
+  "$id": "mrr_Google_Reviews_Distribution",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google Reviews Distribution",
+  "description": "Google Reviews by Ratings Pie Chart",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/RATINGS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_12"
+      },
+      {
+        "filter": "yext/PARTNERS",
+        "in": [
+          "715"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "pie": {
+      "showLabels": true
+    }
+  }
+}

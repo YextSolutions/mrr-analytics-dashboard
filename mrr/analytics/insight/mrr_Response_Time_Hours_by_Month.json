@@ -1,0 +1,25 @@
+{
+  "$id": "mrr_Response_Time_Hours_by_Month",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Response Time (Hours) by Month",
+  "description": "Response Time (Hours) by Month",
+  "query": {
+    "metrics": [
+      "yext/REVIEW_RESPONSE_TIME"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_12"
+      }
+    ]
+  },
+  "display": {
+    "bar": {
+      "showLabels": true
+    }
+  }
+}

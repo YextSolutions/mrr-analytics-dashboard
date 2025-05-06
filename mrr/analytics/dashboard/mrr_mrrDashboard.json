@@ -1,0 +1,154 @@
+{
+  "$id": "mrr_mrrDashboard",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Managed Review Response",
+  "insights": [
+    {
+      "insight": "REVIEWS-MAP",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "mrr_Yext_Managed_Reviews",
+      "x": 2,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Yext_MRR_Responses",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Escalated_Reviews",
+      "x": 2,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Automated_Responses",
+      "x": 4,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "REVIEWS-OVERVIEW",
+      "x": 0,
+      "y": 2,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "mrr_Google_Reviews_Distribution",
+      "x": 2,
+      "y": 2,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "REVIEW-RATING-PIE",
+      "x": 4,
+      "y": 2,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "mrr_Reviews_by_Month_and_Site",
+      "x": 0,
+      "y": 4,
+      "width": 6,
+      "height": 2
+    },
+    {
+      "insight": "REVIEW-DISTRIBUTION-OVER-TIME",
+      "x": 0,
+      "y": 6,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Total_Reviews_by_Month",
+      "x": 0,
+      "y": 7,
+      "width": 6,
+      "height": 2
+    },
+    {
+      "insight": "mrr_Google_Reviews_by_Ratings_YoY",
+      "x": 0,
+      "y": 9,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Google_Reviews_by_Ratings",
+      "x": 4,
+      "y": 9,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Negative_Google_Reviews_Monthly_Trends",
+      "x": 0,
+      "y": 10,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Positive_Google_Reviews_Monthly_Trends",
+      "x": 3,
+      "y": 10,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "ROLLING-AVERAGE-RATING",
+      "x": 0,
+      "y": 11,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Average_Google_Rating_by_Month",
+      "x": 3,
+      "y": 11,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Response_Rate_by_Month",
+      "x": 0,
+      "y": 12,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Response_Time_Hours_by_Month",
+      "x": 3,
+      "y": 12,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "mrr_Google_Reviews_Performance_and_Management_Leaderboard",
+      "x": 0,
+      "y": 13,
+      "width": 6,
+      "height": 2
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "in": "WEEKS_12"
+    }
+  ],
+  "shareWithSubAccounts": false
+}

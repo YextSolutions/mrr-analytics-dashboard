@@ -1,0 +1,26 @@
+{
+  "$id": "mrr_Total_Reviews_by_Month",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Total Reviews by Month",
+  "description": "Reviews by Month",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_12"
+      }
+    ],
+    "comparison": "PREVIOUS_YEAR"
+  },
+  "display": {
+    "line": {
+      "showLabels": true
+    }
+  }
+}
