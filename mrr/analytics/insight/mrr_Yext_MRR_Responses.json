@@ -5,7 +5,7 @@
   "description": "Responses posted by your Yext MRR team.",
   "query": {
     "metrics": [
-      "yext/NEW_REVIEWS"
+      "yext/RESPONSE_COUNT"
     ],
     "dimensions": [
       "yext/PARTNERS"
