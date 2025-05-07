@@ -147,7 +147,7 @@
   "filters": [
     {
       "filter": "yext/date",
-      "in": "WEEKS_12"
+      "in": "DAYS_90"
     }
   ],
   "shareWithSubAccounts": false
